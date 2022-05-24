@@ -1,0 +1,53 @@
+.rightBox {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 60vh 40vh;
+}
+
+.rightTop {
+    display: grid;
+    grid-template-rows: 15% 60% 25%;
+}
+
+.btns {
+    background-color: #d3d3d3;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr;
+}
+
+.selectedProducts {
+    background-color: white;
+}
+
+.totals {
+    background-color: #d3d3d3;
+}
+
+.btn {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+    transition: all 0.5s ease-in-out;
+    background-color: #d3d3d3;
+}
+
+.active {
+    background-color: white;
+}
+
+.rightBottom {
+    background-color: black
+}
